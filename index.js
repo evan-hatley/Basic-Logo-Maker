@@ -1,6 +1,6 @@
 const inquirer = require('inquirer');
 const fs = require('fs');
-const createLogo = require('./lib/shapes');
+const {circle, triangle, square} = require('./lib/shapes');
 
 const questions = [
     {
@@ -10,7 +10,7 @@ const questions = [
     },
     {
     type: 'input',
-    name: 'text-color',
+    name: 'textColor',
     message: 'Enter the color for the text.',
     },
     {
@@ -21,11 +21,17 @@ const questions = [
     },
     {
         type: 'input',
-        name: 'shape-color',
+        name: 'shapeColor',
         message: 'Enter the color for the shape.',
     },
 ];
 
+inquirer.prompt(questions)
+.then((resonse) => {
+
+}
+
+)
 
 
 
