@@ -2,7 +2,7 @@
 
 ## Description
 
-  This project was designed to generate an .svg file based on user input. I created this to avoid paying a graphic designer. 
+  This project was designed to generate an .svg file based on user input. I created this to avoid paying a graphic designer. I created this project as part of the Week 10 Challenge for the KU Front End Coding Bootcamp. The project uses Javascript, node.js, inquirer, and jest to function.
 
 ## Table of Contents
 
@@ -15,7 +15,7 @@
 
 ## Installation
 
-  A user will have to download the source code, then install node.js to their computer. After that, add the dependencies of inqurirer and jest, then node install them.
+  A user will have to download the source code, then install node.js to their computer. After that, add the dependencies of inqurirer and jest, then use the command 'node install' to access them.
 
 ## Usage
 
@@ -31,7 +31,7 @@ I did, with the help of W3 Schools, inquirer, and jest.
 
 ## Testing
 
-I tested thsi project through trial and error, adjusting the shapes as needed, as well as adding additional data through the shapes.js module.
+I tested this project through trial and error, adjusting the shapes as needed, as well as adding additional data through the shapes.js module.
 
 ## Questions
 
