@@ -27,7 +27,7 @@ const questions = [
         message: 'Enter the color for the shape.',
     },
 ];
-// Found out about switch cases form W3 Schools, which made this block of code so much easier to write than === statements for each class of shape
+// Found out about switch cases from W3 Schools, which made this block of code so much easier to write than === statements for each class of shape to get the correct class.
 inquirer.prompt(questions)
 .then((response) => {
     let shape;
@@ -53,9 +53,9 @@ inquirer.prompt(questions)
     }
 })
 
-// Used template literals and JSON to render the shape and text from svgContent
+// Used template literals and JSON to render the shape and text from svgContent based on user input
 function createSvg(shape) {
-    return `<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg">
+    return `<svg width="300px" height="200px" xmlns="http://www.w3.org/2000/svg">
                 ${shape.render()}
                 ${shape.renderText()}
             </svg>`;
