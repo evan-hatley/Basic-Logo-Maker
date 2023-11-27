@@ -45,7 +45,7 @@ inquirer.prompt(questions)
 
 // Takes the user responses and outputs them into the svgContent which will be initalized into an svg file
  const svgContent = createSvg(shape, response);
- fs.writeFile('output.svg', svgContent, (err) => {
+ fs.writeFile('logo.svg', svgContent, (err) => {
     if (err) {
         console.error('Error writing file:', err);
     } else {

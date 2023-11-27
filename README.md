@@ -31,8 +31,8 @@ I did, with the help of W3 Schools, inquirer, and jest.
 
 ## Testing
 
-I tested this project through trial and error, adjusting the shapes as needed, as well as adding additional data through the shapes.js module.
+I tested this project through trial and error, adjusting the shapes as needed, as well as adding additional data through the shapes.js module. I also tested creation success using jest for success/fails on specific parameters, ie a green circle, blue triangle, or black square.
 
 ## Questions
 
-  I can be reached by email at eahatley@gmail.com, as well as Github at evan-hatley.
+  I can be reached by email at <eahatley@gmail.com>, as well as Github at evan-hatley. A link to a video example can be found [here](https://drive.google.com/file/d/1xP33m0R3hoMcJaJmxbg_vCWDYG1UF-XE/view).
